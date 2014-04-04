@@ -8,8 +8,11 @@ Archive of pre-compiled PyV8 binaries, used by Emmet for Sublime Text plugin.
 If you experience issues with automatic PyV8 download of [Emmet for Sublime Text plugin](https://github.com/sergeche/emmet-sublime), you can manually install it:
 
 1. Download PyV8 binary for your OS version (see notes below).
-2. Unpack contents of downloaded archive into `PyV8/%filename%` folder inside Sublime Text Packages (find `Browse Packages...` menu item in ST2 editor to get into Packages folder), where `%filename%` is the name of downloaded file (e.g. ut will be `pyv8-win64-p3` if you download `pyv8-win64-p3.zip` file).
-3. Restart ST editor.
+2. Make a folder called `PyV8` anywhere on your system
+3. Unpack contents of downloaded archive into `PyV8/%filename%` where `%filename%` is the name of downloaded file (e.g. it will be `pyv8-win64-p3` if you download `pyv8-win64-p3.zip` file).
+4. For ST2, move the `PyV8` folder that you just created inside Sublime Text Packages folder which can be found by clicking `Preferences > Browse Packages` in the ST2 Menu.
+5. For ST3, goto `Preferences > Browse Packages` in the ST3 Menu. Then go up one folder to its parent. From there go into the `Installed Packages` folder. Now move the `PyV8` folder that you had created earlier into this (`Installed Packages`) folder.
+6. Restart ST editor.
 
 ## Download
 
